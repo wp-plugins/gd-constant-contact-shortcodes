@@ -2,8 +2,8 @@
 Contributors: guilddev
 Donate link: http://www.guilddev.com/
 Tags: constant contact, shortcode, shortcodes, newsletter, email list, email marketing
-Requires at least: 3.1
-Tested up to: 2.7
+Requires at least: 2.7
+Tested up to: 3.1
 Stable tag: 0.1
 
 This is a plugin that allows you to stick shortcodes into pages or posts in your WordPress site that can be used to allow visitors to sign up to be included in your Constant Contact newsletter lists.
