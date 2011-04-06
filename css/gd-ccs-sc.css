@@ -1,0 +1,10 @@
+#gd-ccs-form-wrapper {float: left; width:100%; margin-bottom: 4px; text-align: center;}
+#gd-ccs-form-wrapper p {width:100%; margin-bottom: 4px; text-align: left;}
+#gd-ccs-form-wrapper form {width: 60%; margin: 10px auto; background-color: #e6e6e6; border: 1px solid #999999; padding: 10px;}
+#gd-ccs-form-wrapper table {width: 100%; border: 0px; margin: 0px auto;}
+#gd-ccs-form-wrapper table td {font-size: 14px; line-height: 16px; padding: 2px 4px;}
+#gd-ccs-form-wrapper table td.label {width: 30%; font-weight: bold; text-align: right;}
+#gd-ccs-form-wrapper table td.input {width: 70%;}
+#gd-ccs-form-wrapper table td.input input[type="text"] {width: 90%; margin: 0px; line-height: 16px;}
+#gd-ccs-form-wrapper table td.submit {text-align: center;}
+#gd-ccs-form-wrapper table td.submit input {font-size: 12px; font-weight: bold; margin: 0px; margin-top: 10px;}
