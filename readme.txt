@@ -6,7 +6,17 @@ Requires at least: 2.7
 Tested up to: 3.1
 Stable tag: 0.1
 
+Allows you to stick shortcodes into pages or posts in your WordPress site for Constant Contact newsletter lists.
+
+== Description ==
+
 This is a plugin that allows you to stick shortcodes into pages or posts in your WordPress site that can be used to allow visitors to sign up to be included in your Constant Contact newsletter lists.
+
+For requests or support, please contact us:
+* <a href="http://www.guilddev.com/contact-us" title="Contact Guild Development">Guild Development Contact Page</a>
+
+For other wordpress plugins:
+* <a href="http://www.guilddev.com/wordpress-plugins" title="Guild Dev Plugins">Wordpress Plugins Page</a>
 
 == Installation ==
 
