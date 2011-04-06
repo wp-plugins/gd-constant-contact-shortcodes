@@ -10,13 +10,10 @@ This is a plugin that allows you to stick shortcodes into pages or posts in your
 
 == Installation ==
 
-1. Upload 'gd-paid-business-listings' folder to the '/wp-content/plugins/' directory or use the 'Add New' option under the 'Plugins' menu in your WordPress backend and 'Upload' 'gd-paid-business-listings.zip'.
+1. Upload 'gd-constant-contact-shortcodes' folder to the '/wp-content/plugins/' directory or use the 'Add New' option under the 'Plugins' menu in your WordPress backend and 'Upload' 'gd-constant-contact-shortcodes.zip'.
 2. Activate the plugin through the 'Plugins' menu in WordPress.
-3. Configure settings for GD Paid Business Listings in the WordPress dashboard by clicking on the 'GD Listings' option in your WordPress backend.
-4. Enter the appropriate information into the form fields on the 'GD Paid Business Listings Settings' page.
-5. On the 'Listings Packages' page, create the packages that you would like to offer advertisers on your website. ***There should always be at least one package set up for this plugin to work***
-6. On the 'Listings Categories' page, create any categories that you would like to use for your listings.
-7. On the 'Business Listings' page, manage or delete specific listings or activate any listings that haven't been activated correctly.
+3. Configure settings for GD Constant Contact Shortcodes in the WordPress dashboard by clicking on the 'GD CC Shortcodes' option in your WordPress backend.
+4. Enter the appropriate information into the form fields on the 'GD Constant Contact Shortcodes' page and save changes.
 5. Paste shortcodes accordingly:
 	* Paste this shortcode into the page you would like to use to display your listings: [gd-listings]
 	* Paste this shortcode into the page you would like to use to display your submission form: [gd-form]
