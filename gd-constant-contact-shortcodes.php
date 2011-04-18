@@ -3,7 +3,7 @@
 Plugin Name: GD Constant Contact Shortcodes
 Plugin URI: http://www.guilddev.com/wordpress-plugins/
 Description: This is a plugin that allows you to stick shortcodes into pages or posts in your WordPress site that can be used to allow visitors to sign up to be included in your Constant Contact newsletter lists.
-Version: 0.1
+Version: 0.2
 Author: Guild Development, LLC
 Author URI: http://www.guilddev.com
 */

@@ -53,25 +53,25 @@ function display_gd_ccs_form($atts) {
 	$response = curl_exec($session);
 	curl_close($session);
 
-	echo get_option('gd_ccs_successmessage');
+	return get_option('gd_ccs_successmessage');
 
 	}else{
-?>	
-<div id="gd-ccs-form-wrapper">
+	
 
-<p><?php echo get_option('gd_ccs_subscribemessage'); ?></p>
+$ccs_default_output="<div id='gd-ccs-form-wrapper'>";
+$ccs_default_output.="<p>".get_option('gd_ccs_subscribemessage')."</p>";
+$ccs_default_output.="<form method='post'>";
+$ccs_default_output.="<input type='hidden' name='action' value='cc_addcontact' />";
+$ccs_default_output.="<table>";
+$ccs_default_output.="<tr><td class='label'>Email</td><td class='input'><input type='text' name='gd_ccs_email' value='' /></td></tr>";
+$ccs_default_output.="<tr><td class='label'>First Name</td><td class='input'><input type='text' name='gd_ccs_fname' value='' /></td></tr>";
+$ccs_default_output.="<tr><td class='label'>Last Name</td><td class='input'><input type='text' name='gd_ccs_lname' value='' /></td></tr>";
+$ccs_default_output.="<tr><td class='submit' colspan='2'><input type='submit' value='Subscribe' /></td></tr>";
+$ccs_default_output.="</table></form>";
+$ccs_default_output.="<div style='clear:both;'></div></div>";
 
-	<form method="post">
-	<input type="hidden" name="action" value="cc_addcontact" />
-	<table>
-	<tr><td class="label">Email</td><td class="input"><input type="text" name="gd_ccs_email" value="" /></td></tr>
-	<tr><td class="label">First Name</td><td class="input"><input type="text" name="gd_ccs_fname" value="" /></td></tr>
-	<tr><td class="label">Last Name</td><td class="input"><input type="text" name="gd_ccs_lname" value="" /></td></tr>
-	<tr><td class="submit" colspan="2"><input type="submit" value="Subscribe" /></td></tr>
-	</table>
-	</form>
-<div style="clear:both;"></div></div>
-<?php
+return $ccs_default_output;
+
 	}
 
 } 
