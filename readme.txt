@@ -1,6 +1,5 @@
 === Plugin Name ===
-Contributors: guilddev
-Donate link: http://www.guilddev.com/
+Contributors: Bryan Haddock
 Tags: constant contact, shortcode, shortcodes, newsletter, email list, email marketing
 Requires at least: 2.7
 Tested up to: 3.1
@@ -14,9 +13,7 @@ This is a plugin that allows you to stick shortcodes into pages or posts in your
 
 = Support and Requests =
 
-We respond to all support requests at our forum: [Support Forum](http://wordpress-plugins.guilddev.com/forum/constant-contact-shortcodes/)
-
-For paid support/priority feature requests, please contact us online at [our contact form](http://www.guilddev.com/contact-us)
+We are currently not able to support this plugin
 
 == Installation ==
 
@@ -28,7 +25,6 @@ For paid support/priority feature requests, please contact us online at [our con
 	* Paste this shortcode into the page you would like to use to display your listings: [gd-listings]
 	* Paste this shortcode into the page you would like to use to display your submission form: [gd-form]
 	* Paste this shortcode into the page you would like to use as your "Thank You" page: [gd-thankyou]
-6. Have fun using this plugin and if you have any questions, requests, or positive feedback, we would love to hear from you at Guild Development, LLC (http://www.guilddev.com/wordpress-plugins/)
 
 == Screenshots ==
 
