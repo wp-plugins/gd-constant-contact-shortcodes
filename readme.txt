@@ -3,7 +3,7 @@ Contributors: Bryan Haddock
 Tags: constant contact, shortcode, shortcodes, newsletter, email list, email marketing
 Requires at least: 2.7
 Tested up to: 3.1
-Stable tag: 0.2
+Stable tag: 0.3
 
 Allows you to stick shortcodes into pages or posts in your WordPress site for Constant Contact newsletter lists.
 
